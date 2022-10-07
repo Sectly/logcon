@@ -19,7 +19,8 @@
     "info",
     "debug",
     "colors",
-    "output"
+    "output",
+    "icon"
   ],
   "author": "Sectly",
   "license": "MPL-2.0",
