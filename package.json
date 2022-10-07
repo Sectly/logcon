@@ -1,6 +1,6 @@
 {
   "name": "logcon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Logcon is an free to use JavaScript library that provides nice console.log output with icons and colors!",
   "main": "index.js",
   "scripts": {
