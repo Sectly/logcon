@@ -43,7 +43,7 @@ const color = type => {
 }
 
 const icon = type => {
-  return consoleMessageIcons[(type - 1)];
+  return consoleMessageIcons[type];
 }
 
 const WordWidth = require("./Utils/word-width");
