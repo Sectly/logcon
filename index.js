@@ -222,6 +222,7 @@ module.exports = {
   info: log(4),
   output: log(8),
   Table: Table,
+  type: log,
   color: color,
   icon: icon,
 };
