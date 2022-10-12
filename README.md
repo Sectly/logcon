@@ -1,5 +1,5 @@
 # Logcon
-Logcon is an free to use JavaScript library that provides nice console.log output with icons and colors!
+Logcon is an free to use JavaScript library that provides nice console.log output with icons, tables and colors!
 
 NPM: `npm i logcon` [(NPM Package)](https://www.npmjs.com/package/logcon)
 
