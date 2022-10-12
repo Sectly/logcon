@@ -25,7 +25,7 @@ logcon.info("This is a info!");
 logcon.output("This is a output!");
 ```
 
-## New Since 1.0.3: Tables And API Functions!
+## New Since 1.0.3: Tables And More API Functions!
 
 ### Tables:
 
@@ -42,7 +42,7 @@ const body = [
 let newtable = new logcon.Table(header, body);
 newtable.log(3); // Colors: 0 = Default, 1 = Red, 2 = Green, 3 = Yellow, 4 = Blue, 5 = Purple, 6 = Dark Blue, 7 = White, 8 = Whiteish. (Default = White)
 
-newtable.setHeader(["Id:", "Name:", "Status:"]); // Set Header
+newtable.setHeader(["Id:", "Name:", "Status:", "Extra:"]); // Set Header
 newtable.appendBody(["#2", "Mike", "Idle"]); // Append Body
 newtable.setBody([["#3", "Dan", "Offline"]]); // Set Body
 const tableArray = newtable.array(); // Convert To Array
@@ -69,4 +69,8 @@ console.log(color + "Hello!" + logcon.color(7));
 
 const icon = logcon.icon(4); // Icons: 0 = ×, 1 = √, 2 = ‼, 3 = i, 4 = ⟫, 5 = », 6 = >, 7 = ?, 8 = ›
 console.log("[" + icon + "]", logcon.icon(1));
+
+const logger = logcon.type(7); // Types: 1 = Error, 2 = Success, 3 = Warn, 4 = Info, 5 = Stress, 6 = Debug, 7 = Log, 8 = Output.
+
+logger("Logcon Time!");
 ```
