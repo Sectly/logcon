@@ -43,8 +43,8 @@ newtable.log(3); // Colors: 0 = Default, 1 = Red, 2 = Green, 3 = Yellow, 4 = Blu
 newtable.setHeader(["Id:", "Name:", "Status:"]); // Set Header
 newtable.appendBody(["#2", "Mike", "Idle"]); // Append Body
 newtable.setBody([["#3", "Dan", "Offline"]]); // Set Body
-newtable.array(); // Convert To Array
-newtable.string(); // Convert To String
+const tableArray = newtable.array(); // Convert To Array
+const tableString = newtable.string(); // Convert To String
 newtable.log() // Log In Console, Defaults To The Default Color With No Color Input
 newtable.reset(); // Clear/Reset The Table
 
@@ -54,5 +54,5 @@ newtable.reset()
 
 let string = newtable.string();
 
-console.log(string);
+console.log(string); // Or logcon.debug("Logcon Table:\n" + string);
 ```
