@@ -38,6 +38,22 @@ const log = type => {
   };
 };
 
+const table = type => {
+  return (...args) => {
+    let outputArg = '';
+    const len = args.length;
+    for (let i in args) {
+      if (i == 0) {
+        outputArg += args[i];
+      } else {
+        outputArg += ' ' + args[i];
+      }
+    }
+    outputArg = consoleMessageTypes[type] + "[" + consoleMessageIcons[(type - 1)] + "] " + outputArg + consoleMessageTypes[7];
+    console.log(outputArg);
+  };
+};
+
 module.exports = {
   warn: log(3),
   error: log(1),
@@ -46,5 +62,6 @@ module.exports = {
   success: log(2),
   stress: log(5),
   info: log(4),
-  output: log(8)
+  output: log(8),
+  table: table
 };
