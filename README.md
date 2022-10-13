@@ -61,6 +61,8 @@ let string = newtable.string();
 console.log(string); // Or logcon.debug("Logcon Table:\n" + string);
 ```
 
+![Preview Image](https://github.com/Sectly/logcon/blob/main/screenshots/logcon_example_2.png?raw=true)
+
 ### API Functions:
 
 ```js
@@ -76,3 +78,5 @@ const logger = logcon.type(7); // Types: 1 = Error, 2 = Success, 3 = Warn, 4 = I
 
 logger("Logcon Time!");
 ```
+
+![Preview Image](https://github.com/Sectly/logcon/blob/main/screenshots/logcon_example_3.png?raw=true)
