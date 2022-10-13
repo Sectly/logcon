@@ -25,6 +25,8 @@ logcon.info("This is a info!");
 logcon.output("This is a output!");
 ```
 
+![Preview Image](https://github.com/Sectly/logcon/blob/main/screenshots/logcon_example_1.png?raw=true)
+
 ## New Since 1.0.3: Tables And More API Functions!
 
 ### Tables:
